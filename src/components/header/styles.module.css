@@ -1,0 +1,11 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 120px;
+}
+
+.logo svg {
+  height: 33px;
+  width: fit-content;
+}

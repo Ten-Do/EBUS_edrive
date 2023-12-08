@@ -1,0 +1,58 @@
+.stops {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.stop {
+  border-radius: 32px;
+  border: 1px solid var(--color-border-gray);
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.card {
+  position: absolute;
+  top: 40px;
+  border-radius: var(--radius-primary);
+  background-color: var(--color-bg);
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  width: 440px;
+  padding: 20px;
+  z-index: 100;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head p,
+.head span {
+  font-weight: var(--fw-medium) !important;
+  font-size: var(--fs-main-text) !important;
+}
+
+.head span {
+  margin-left: 12px;
+  color: var(--color-fg-secondary);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.body span {
+  margin-right: 11px;
+  color: var(--color-fg-secondary);
+}
+
+.placeholder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}

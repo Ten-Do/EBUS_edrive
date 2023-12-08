@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    gap: 24px;
+}
+
+.chats {
+    background-color: var(--color-bg);
+    border-radius: var(--radius-primary);
+    flex: 1;
+    padding: 20px;
+}
+
+.chat {
+    flex: 2;
+
+}

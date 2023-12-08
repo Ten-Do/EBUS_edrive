@@ -1,0 +1,47 @@
+body {
+  font-family: 'Onest';
+  font-size: var(--fs-text);
+}
+
+h1 {
+  font-size: var(--fs-title);
+  font-weight: var(--fw-medium);
+}
+
+h2 {
+  font-size: var(--fs-subtitle);
+  font-weight: var(--fw-medium);
+}
+
+h6 {
+  font-size: var(--fs-subtext);
+  font-weight: var(--fw-regular);
+}
+
+p {
+  font-size: var(--fs-text);
+  font-weight: var(--fw-regular);
+  line-height: 27px;
+}
+/* SNACKBAR */
+#snackbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-bg);
+  padding: 12px;
+  border-left: var(--radius-primary) solid var(--color-primary-blue);
+  border-radius: var(--radius-primary);
+  width: 100%;
+}
+
+#snackbar * {
+  fill: var(--color-primary-blue);
+}
+
+#snackbar.danger {
+  border-left: var(--radius-primary) solid var(--color-red);
+}
+
+#snackbar.danger * {
+  fill: var(--color-red);
+}

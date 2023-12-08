@@ -1,0 +1,35 @@
+.input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.input_container input {
+  padding: 16px 14px;
+  border-radius: var(--radius-primary);
+  border: 1px solid var(--color-border-gray);
+}
+
+.password_toggler {
+  position: absolute;
+  right: 14px;
+  bottom: 16px;
+}
+
+.error input {
+  border: 1px solid var(--color-red);
+}
+
+.errorMessage {
+  color: var(--color-red);
+  font-size: 12px;
+}
+
+.select {
+  padding: 16px 14px;
+  border-radius: var(--radius-primary);
+  border: 1px solid var(--color-border-gray);
+  min-width: 330px;
+}

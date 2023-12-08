@@ -1,0 +1,32 @@
+:root {
+  /* COLORS */
+  --color-bg: #ffffff;
+  --color-fg: #1b2037;
+  --color-bg-gray: #f7f8f9;
+  --color-fg-secondary: #6b7280;
+  --color-gray-active: #f9fafb;
+  --color-primary-blue: #0029ff;
+  --color-secondary-blue: #dde2ff;
+  --color-border-gray: #d1d5db;
+  --color-active-shadow: #0029ff40;
+  --color-red: #f42d2d;
+
+  /* SIZES */
+  --radius-primary: 8px;
+
+  /* FONT STYLES */
+  /* size */
+  --fs-title: 40px;
+  --fs-subtitle: 27px;
+  --fs-main-text: 20px;
+  --fs-text: 18px;
+  --fs-subtext: 12px;
+  /* weight */
+  --fw-medium: 500;
+  --fw-regular: 400;
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url(../assets/fonts/Onest-VariableFont_wght.ttf);
+}

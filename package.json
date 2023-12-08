@@ -1,0 +1,37 @@
+{
+  "name": "ebus",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tauri dev",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@2gis/mapgl": "^1.41.1",
+    "@2gis/mapgl-clusterer": "^2.5.0",
+    "@2gis/mapgl-directions": "^2.0.1",
+    "@2gis/mapgl-ruler": "^2.0.4",
+    "@react-keycloak/web": "^3.4.0",
+    "@tauri-apps/api": "^1.5.1",
+    "centrifuge": "^5.0.1",
+    "javascript-time-ago": "^2.5.9",
+    "keycloak-js": "^23.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "recoil": "^0.7.7"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.6",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4",
+    "vite-plugin-svgr": "^4.2.0"
+  }
+}

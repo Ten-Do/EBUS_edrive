@@ -1,0 +1,84 @@
+.card {
+  border-radius: var(--radius-primary);
+  background-color: var(--color-bg);
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head p {
+  font-weight: var(--fw-medium) !important;
+  font-size: var(--fs-main-text) !important;
+}
+
+.head p.subtext {
+  font-size: 14px !important;
+  font-weight: var(--fw-regular) !important;
+}
+
+.body {
+  max-height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  background-color: var(--color-bg-gray);
+  border-radius: var(--radius-primary);
+}
+
+.message_container {
+  display: flex;
+}
+
+.message {
+  width: fit-content;
+  max-width: 320px;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: var(--color-bg);
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.sent .message {
+  background-color: var(--color-primary-blue);
+  color: var(--color-bg);
+}
+
+.sent .message span {
+  float: right;
+}
+
+.message p {
+  font-size: 14px !important;
+}
+
+.message span {
+  font-size: 10px;
+}
+
+.form {
+  display: flex;
+  gap: 14px;
+}
+
+.form > div {
+  flex: 1;
+}
+
+.form > button {
+  width: 56px;
+  height: 56px;
+  padding: 16px;
+}

@@ -1,0 +1,38 @@
+.container {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border-gray);
+  border-radius: var(--radius-primary);
+  overflow: hidden;
+}
+
+.th {
+  color: var(--color-fg-secondary);
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid var(--color-border-gray);
+  gap: 12px;
+  padding: 12px;
+}
+
+.row div {
+  padding: 6.5px 13px;
+}
+
+.col_fluid {
+  flex: 1;
+}
+
+.col_fluid2 {
+  flex: 2;
+}
+
+.col_fluid3 {
+  flex: 3;
+}
+
+.col_fixed {
+  width: 103px;
+  text-align: center;
+}

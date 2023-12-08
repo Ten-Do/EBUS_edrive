@@ -1,0 +1,39 @@
+.button {
+  padding: 14px 24px;
+  border-radius: var(--radius-primary);
+  background-color: var(--color-secondary-blue);
+  color: var(--color-primary-blue);
+  max-height: 100%;
+}
+
+.rounded_button {
+  border-radius: 100%;
+}
+
+.square_button {
+  width: 68px;
+  height: 68px;
+  border-radius: var(--radius-primary);
+}
+
+.button:hover {
+  filter: brightness(0.84);
+}
+
+.primary {
+  background-color: var(--color-primary-blue);
+  color: var(--color-bg);
+}
+
+.outlined {
+  background-color: inherit;
+  color: var(--color-fg-secondary);
+}
+
+.outlined * {
+  fill: var(--color-fg-secondary);
+}
+
+.danger {
+  background-color: var(--color-red);
+}
